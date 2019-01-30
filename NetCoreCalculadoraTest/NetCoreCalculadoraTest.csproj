@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
+    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
+
+    <PackageReference Include="SpecFlow" Version="3.0.132-beta" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.0.132-beta" />
+    <PackageReference Include="SpecFlow.MsTest" Version="3.0.132-beta" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.3.2" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.3.2" />
+    <PackageReference Include="FluentAssertions" Version="5.4.2" />
+    <PackageReference Include="BoDi" Version="1.4.0-alpha1" />
+  </ItemGroup>
+
+  <!--<ItemGroup>
+    <Compile Update="Features\SomaFeature.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SomaFeature.feature</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Features\SomaFeature.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SomaFeature.feature.cs</LastGenOutput>
+    </None>
+  </ItemGroup>-->
+
+</Project>
